@@ -1,6 +1,4 @@
 <?php
-    //$arr = split('nk' , $_REQUEST["id"]);
-    //echo($arr[1]);
     $arr = explode("nk",$_REQUEST['id']);
     for ($i=0; $i<sizeof ($arr); $i++)
     {
